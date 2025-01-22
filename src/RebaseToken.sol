@@ -52,7 +52,7 @@ contract RebaseToken is ERC20 {
     }
 
     function balanceOf(address user) public view virtual returns (uint256) {
-        return _balances[account];
+        //return _balances[account];
     }
 
     function _calculateUserAccumulatedInterestSinceLastUpdate(
