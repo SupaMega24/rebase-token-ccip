@@ -112,3 +112,5 @@ contract RebaseToken is ERC20 {
         return s_userInterestRate[_user];
     }
 }
+
+// That's all for now!
